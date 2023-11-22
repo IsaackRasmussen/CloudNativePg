@@ -33,5 +33,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: 15.5-2.12.2
+        tags: isaack/pgsql15-timescale:15.5-2.12.2
         labels: ${{ steps.meta.outputs.labels }}
